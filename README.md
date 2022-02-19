@@ -1,6 +1,7 @@
 # Genservers
 
-**TODO: Add description**
+- Docs: [Elixir Docs](https://elixir-lang.org/getting-started/mix-otp/genserver.html)
+- School: [Elixir School](https://elixirschool.com/en/lessons/advanced/otp_concurrency)
 
 ## Installation
 
