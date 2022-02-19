@@ -8,8 +8,7 @@ defmodule Genservers.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: Genservers.Worker.start_link(arg)
-      # {Genservers.Worker, arg}
+      {Stack, [:hello]}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
