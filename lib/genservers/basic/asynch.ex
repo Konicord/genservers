@@ -15,7 +15,7 @@ defmodule SimpleQueue2 do
 
   # remember, cast will never reply. only call does.
   def handle_cast({:enqueue, value}, state) do
-    {:noreply, state ++ [value]}
+    {:noreply, state ++ [value]} # adding the value to the end of the list (from state aka queue). Like queue is 1,2,3 - dequeue(5), then its adding 1,2,3,5
   end
 
   ## Client api / function helper
