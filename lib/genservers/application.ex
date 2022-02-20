@@ -8,7 +8,7 @@ defmodule Genservers.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      {Stack, [:hello]}
+      {Stack, [:hello]} # this could be Stack only too, but I think this is cleaner.
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
